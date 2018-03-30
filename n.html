@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="mui.min.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>
+		<div class="ui-content">
+			<div class="top">
+				<a class="articleBack"><i>arrow</i></a>
+				<img src="img/Mask15@3x.png" alt="展示图" />
+			</div>
+			<div class="articleMidTitle">
+				<h1 class="title">是甜点而非大餐</h1>
+				<h6 class="secTitle">试雪铁龙天逸C5 AIRCROSS</h6>
+			</div>
+			<div class="perInfo">
+				<img class="headImg" src="img/timg.png" alt="头像" />				
+				<p>Alexia</p>
+				<div class="addfocus">+<!--<img class="icon" src="img/iconmini_add@2x.jpg" alt="" />--></div>
+			</div>
+			<div class="content">
+				<div class="word">
+					<p>上礼拜我在周报里写想试驾天逸C5 AIRCROSS（下文简称天逸），结果这周我就坐到了天逸的驾驶席。</p>
+					<p>说实话，我是个不太喜欢SUV的人，能让我对天逸起一丝冲动多半是因为外形设计，这种概念车直接落地的做法勾起了我小时候第一眼看见雪铁龙CX时的回忆…</p>
+					<p>而另外一半冲动的来源就是价格，15.37万起的预售价比CR-V、RAV4荣放都便宜不少。掰开手指头算算合资紧凑级SUV没几个15万起的，况且这还是预售价...等正式公布价格的时候一定不会高于15.37万这个数字，最差也就是和预售价打平手而已。</p>
+				</div>
+				<div class="imgshow">
+					<img src="img/Mask1@3x.png" alt="展示图" />
+					<p>（图片来自网络）</p>
+				</div>
+				<div class="word">
+					<p>另外一点，作为标致4008兄弟车，天逸同样来自PSA的EMP2平台，和前者拥有相同的底盘结构和动力总成。</p>
+					<p>尽管厂家一再表示天逸和4008不构成竞争关系，但现在消费者越来越精，花更少的钱能买到“同质化”产品何乐不为？这么来看，天逸的存在或多或少让4008精神紧张。</p>
+				</div>
+				<div class="imgList">
+					<div class="imgItem"><img src="img/Mask11@3x.png" alt="原创" /><p>#原创#</p></div>
+					<div class="imgItem"><img src="img/Mask12@3x.png" alt="路书" /><p>#路书#</p></div>
+					<div class="imgItem"><img src="img/Mask15@3x.png" alt="搞笑" /><p>#搞笑#</p></div>
+				</div>
+				<div class="moreInfo">
+					<h3>相关内容</h3>
+					<ul class="table">
+						<li class="InfoList">
+							<div class="listLeft">
+								<img src="img/Mask20@3x.png" alt="展示图" />
+								<em>01:20</em>
+							</div>
+							<div class="listRight">
+								<p>试驾领克01:跨越从陌生到喜欢的距离</p>
+								<a href="javascript:;">#测车</a>
+							</div>
+						</li>
+						<li class="InfoList">
+							<div class="listLeft">
+								<img src="img/Mask20@3x.png" alt="展示图" />
+								<em>01:20</em>
+							</div>
+							<div class="listRight">
+								<p>试驾领克01:跨越从陌生到喜欢的距离</p>
+								<a href="javascript:;">#测车</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="push">
+				<div class="push_left">
+					<input type="text" placeholder="发表你的评论…"/>
+				</div>
+				<div class="push_right">
+					<b><img src="img/icon_admire@2x.png" alt="点赞" /></b>
+					<b><img src="img/icon_collection@2x.png" alt="收藏" /></b>
+					<b><img src="img/icon_shall@2x.png" alt="分享" /></b>
+					
+					
+					
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="mui.min.js"></script>
+	<script>
+		mui.init({
+			swipeBack:true //启用右滑关闭功能
+		});
+		var WD=document.documentElement.clientWidth||document.body.clientWidth;
+		var HT=document.getElementsByTagName("html")[0];
+		HT.style.fontSize=WD/10+"px";
+	</script>
+</html>
